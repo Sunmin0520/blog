@@ -2,8 +2,8 @@ module.exports = {
   title: `Better Than Yesterday`,
   description: `Blog posted about ...`,
   author: `Sunmin`,
-  introduction: `어제보다 나은 오늘을 만들기 위해 새롭게 배우고, 기록하고, 회고합니다. 빠른 시작을 위해 노력합니다.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  introduction: `어제보다 나은 오늘을 만들기 위해 새롭게 배우고, 기록하고, 회고합니다. 망설이기보다는 빠른 시작을 위해 노력합니다.`,
+  siteUrl: `https://sunmin.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account

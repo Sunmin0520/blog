@@ -18,9 +18,9 @@ lang: 'en'
  7. 언젠가는 한 기술 조직의 리더라는 책임감을
 
 ## 🟢  Contact
-- Email: sunmin.dev@gmail.com
-- Github: [github.com/Sunmin0520](github.com/Sunmin0520)
-- Blog: [sunmin.netlify.app](sunmin.netlify.app)
+- Email: [sunmin.dev@gmail.com](sunmin.dev@gmail.com)
+- Github: [github.com/Sunmin0520](https://github.com/Sunmin0520)
+- Blog: [sunmin.netlify.app](https://sunmin.netlify.app)
 
 ## 🟢  Career
 ### 에너캠프 

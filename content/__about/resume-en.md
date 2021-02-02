@@ -16,6 +16,7 @@ lang: 'en'
  5. 효율적인 비즈니스 가치 구현을
  6. 꾸준한 기록과 회고를 통한 발전을
  7. 언젠가는 한 기술 조직의 리더라는 책임감을
+ 8. Trying is better than nothing & Done is better than perfect
 
 ## 🟢  Contact
 - Email: [sunmin.dev@gmail.com](sunmin.dev@gmail.com)

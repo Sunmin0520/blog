@@ -51,5 +51,16 @@ var obj2 = {name:'obj2'};
 setTimeout(obj1.func.bind(obj2), 1500)//this === obj2로 바인딩
 ```
 
+<p align = center>
+<br />
+<br />
+<br />
+<br />
+학습한 내용을 계속해서 추가 중입니다.
+<br />
+<br />
+<br />
+<br />
+</p>
 
-
+**출처** 정재남, 코어 자바스크립트(위키북스, 2019)

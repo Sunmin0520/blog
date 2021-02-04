@@ -24,7 +24,7 @@ module.exports = {
     buyMeACoffeeId: 'jbee',
   },
   share: {
-    facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
+    facebookAppId: '233104818516942', // Add facebookAppId for using facebook share feature v3.2
   },
   ga: 'UA-188422385-1', // Add your google analytics tracking ID
 }

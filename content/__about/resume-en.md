@@ -11,12 +11,13 @@ lang: 'en'
  **저는 `_________` 추구합니다.**
  1. 어제보다 나은 내일을
  2. 망설이기보다 우선 시작하며, 새로운 기술과 환경에의 빠른 적응을
- 3. 동료와 함께 하는 성장을
- 4. 적극적이고 투명한 의사소통을
- 5. 효율적인 비즈니스 가치 구현을
- 6. 꾸준한 기록과 회고를 통한 발전을
+ 3. 필요한 것의 빠른 파악과 효율적인 해결을
+ 4. 동료와 함께 하는 성장을
+ 5. 적극적이고 투명한 의사소통을
+ 6. 효율적인 비즈니스 가치 구현을
  7. 언젠가는 한 기술 조직의 리더라는 책임감을
- 8. Trying is better than nothing & Done is better than perfect
+ 8. 꾸준한 기록과 회고를 통한 발전을
+ 9. Trying is better than nothing & Done is better than perfect
 
 ## 🟢  Contact
 - Email: [sunmin.dev@gmail.com](sunmin.dev@gmail.com)

@@ -29,11 +29,20 @@ sunmin.getName();//sunmin
   - sunmin.__ proto __ .getName이라고 쓰면 this === sunmin.__ proto __가 되지만, sunmin.getName이면 this === 생성한 새 인스턴스 === sunmin이 된다.
 
 
-### 2. construtor 프로퍼티
+### 2. constructor 프로퍼티
 
 <img src = "https://user-images.githubusercontent.com/60782131/107513722-f8c3cc00-6beb-11eb-9cb0-ed3930e9f775.png" width=250>
 <img src = "https://user-images.githubusercontent.com/60782131/107513725-f9f4f900-6beb-11eb-839c-eb1b43339e9f.png" width=250>
 - [Constructor].prototype.constructor === Object.getPrototypeOf([instance]).constructor === [instance].__proto__.constructor === [instance].constructor => 인스턴스로부터 그 원형이 무엇인지 알 수 있다.
+
+## 2. 프로토타입 체인
+
+### 1. 메서드 오버라이드
+
+- 인스턴스가 Constructor와 동일한 이름의 프로퍼티나 메소드 가지고 있다면 -> 오버라이드(즉 인스턴스의 것으로 나타남)
+
+### 2. 프로토타입 체인
+
 
 <p align = "center">
 <br />

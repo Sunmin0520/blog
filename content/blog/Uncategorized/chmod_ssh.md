@@ -1,7 +1,7 @@
 ---
 title: 'SSH, chmod'
 date: 2021-03-07 08:05:07
-category: 'Uncategorized'
+category: 'uncategorized'
 draft: false
 ---
 <p>

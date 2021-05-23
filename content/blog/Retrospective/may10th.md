@@ -2,7 +2,7 @@
 title: '성장일기 5월 10일 월요일'
 date: 2021-05-10 20:38:00
 category: 'Retrospective'
-draft: false
+draft: true
 ---
 # Facts
 - [x] ㅌㅅ 레퍼런스 코드 분석

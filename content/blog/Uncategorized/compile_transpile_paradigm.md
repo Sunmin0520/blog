@@ -1,7 +1,7 @@
 ---
 title: 'compile, transpile, program paradigm'
 date: 2021-03-17 23:45:07
-category: 'Ungategorized'
+category: 'ungategorized'
 draft: false
 ---
 

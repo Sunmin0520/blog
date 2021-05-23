@@ -2,7 +2,7 @@
 title: '성장일기 5월 11일 화요일'
 date: 2021-05-11 20:30:00
 category: 'Retrospective'
-draft: false
+draft: true
 ---
 # Facts
 - 월요일보다 집중력이 낮았다. 어떤 것을 해야할지 구체적으로 세분화를 해놓지 않았기에 시간의 흐름의 주도권을 잡지 못했던 것이 원인이다. 

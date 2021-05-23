@@ -1,7 +1,7 @@
 ---
 title: '절대경로, 상대경로'
 date: 2021-03-03 22:59:07
-category: 'Uncategorized'
+category: 'uncategorized'
 draft: false
 ---
 <p>

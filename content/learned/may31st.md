@@ -11,11 +11,12 @@
 
 - [참고1](https://www.oss.kr/info_techtip/show/f1c6db27-7caf-44b9-97bd-b4a021e0e5f2)
 - [참고2](https://www.redhat.com/ko/topics/linux/what-is-the-linux-kernel)
+# git flow
+- github ui이용해서 그 레포 안에서 master-develop-feature branch로 가게 할 것. 'from develop'이렇게 나와서 설정하기 쉽다.
 
-# VS code에서 커밋시 origin으로 가지 않는 문제
-<img width="753" alt="스크린샷 2021-05-31 오전 8 52 39" src="https://user-images.githubusercontent.com/79896443/120124099-8eac5280-c1ed-11eb-95ef-3852b32ce682.png">
-- vs code에서 origin 추가가 안 되는 이유? - 깃헙 계정 2개 사용에서 비롯되는 문제로 예상된다.
-
+# docker 명령어
+- https://www.yalco.kr/36_docker/
+- https://www.youtube.com/watch?v=hWPv9LMlme8&ab_channel=%EC%96%84%ED%8C%8D%ED%95%9C%EC%BD%94%EB%94%A9%EC%82%AC%EC%A0%84%EC%96%84%ED%8C%8D%ED%95%9C%EC%BD%94%EB%94%A9%EC%82%AC%EC%A0%84
 # serverless
 https://futurecreator.github.io/2019/03/14/serverless-architecture/
 

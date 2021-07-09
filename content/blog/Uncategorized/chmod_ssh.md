@@ -2,7 +2,7 @@
 title: 'SSH, chmod'
 date: 2021-03-07 08:05:07
 category: 'uncategorized'
-draft: false
+draft: true
 ---
 <p>
 

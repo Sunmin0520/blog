@@ -1,7 +1,7 @@
 ---
 title: 'compile, transpile, program paradigm'
 date: 2021-03-17 23:45:07
-category: 'ungategorized'
+category: 'CS'
 draft: false
 ---
 
@@ -50,4 +50,4 @@ draft: false
 - [이미지 출처](https://so-tired.tistory.com/98)
 - [stack overflow](https://softwareengineering.stackexchange.com/questions/140321/what-is-the-difference-between-building-and-compiling)
 
-</p> 내
+</p> 

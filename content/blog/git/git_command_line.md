@@ -1,7 +1,7 @@
 ---
 title: '자주 쓰는 command line'
 date: 2021-1-31 07:36:00
-category: 'Useful info'
+category: 'git'
 draft: false
 ---
 ## 아직 push 하지 않은 커밋을 취소하고 싶을 때

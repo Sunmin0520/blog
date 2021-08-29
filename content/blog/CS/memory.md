@@ -2,7 +2,7 @@
 title: '메모리'
 date: 2021-02-12 00:46:07
 category: 'CS'
-draft: true
+draft: false
 ---
 
 

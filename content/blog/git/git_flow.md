@@ -7,7 +7,7 @@ draft: false
 <p>
 <img src="https://user-images.githubusercontent.com/60782131/114875191-038f1d00-9e38-11eb-92fd-a559510cfd99.png">
 
-- master -> develop -> feature, hot fix, release
+- master → develop → feature, hot fix, release
 - master: master에 변경내역있다면 production에 배포되는 것 
 - develop: hotfix 제외하고는 모든 변경내역은 develop에서 시작
 - feature: develop에서 생성하고, 기능 완성되면 develop에 merge
@@ -23,12 +23,12 @@ draft: false
   3. git init
   4. git add, commit
   5. git remote add origin & git push origin master
-  6. git checkout -b develop -> 작업
+  6. git checkout -b develop → 작업
 
 <br/>
 
 - feature에서 작업 중이고, develop에서 push되었고 feature에서 필요한데 pull하지 않은 코드가 있다면?
-  - stash -> develop으로 이동 -> git pull. 즉 **feature에서 develop을 pull하지 않는다.**
+  - stash → develop으로 이동 → git pull. 즉 **feature에서 develop을 pull하지 않는다.**
 
 <br/>
 

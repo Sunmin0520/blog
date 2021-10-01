@@ -1,6 +1,6 @@
 ---
 title: '[회고] 9월 둘째 주'
-date: 2021-09-01 18:00:07
+date: 2021-09-12 18:00:07
 category: 'Retrospective'
 draft: false
 ---

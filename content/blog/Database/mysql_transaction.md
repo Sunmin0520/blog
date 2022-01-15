@@ -1,7 +1,7 @@
 ---
-title: '[MySQL] transaction'
+title: '[DB] transaction'
 date: 2021-02-7 17:09:13
-category: 'Database'
+category: 'database'
 draft: true
 ---
 - transaction: 하나의 그룹으로 처리되야 하는 쿼리를 묶어 놓은 것

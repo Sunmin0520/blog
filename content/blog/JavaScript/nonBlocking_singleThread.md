@@ -1,7 +1,7 @@
 ---
-title: 'call stack, web api, event queue, event loop'
+title: '[JS] call stack, web api, event queue, event loop'
 date: 2021-02-04 14:29:13
-category: 'JavaScript'
+category: 'javaScript'
 draft: false
 ---
 - Blocking I/O 

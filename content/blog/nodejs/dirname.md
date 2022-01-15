@@ -1,7 +1,7 @@
 ---
-title: '__dirname, path.join'
+title: [Node.js] __dirname, path.join'
 date: 2021-03-04 10:30:07
-category: 'Node.js'
+category: 'node.js'
 draft: false
 ---
 <p>

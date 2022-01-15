@@ -1,7 +1,7 @@
 ---
-title: 'HTTPS, SSL'
+title: '[Web] HTTPS, SSL'
 date: 2021-2-8 00:02:00
-category: 'Web'
+category: 'web'
 draft: false
 ---
 ## HTTPS (HTTP over Secure Socket Layer)

@@ -1,7 +1,7 @@
 ---
 title: '[회고] 8월 첫째 주'
 date: 2021-08-06 09:59:07
-category: 'Retrospective'
+category: 'retrospective'
 draft: false
 ---
 

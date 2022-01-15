@@ -1,7 +1,7 @@
 ---
-title: '[리뷰] 모두의 인공지능 with 파이썬'
+title: '[서적] 모두의 인공지능 with 파이썬'
 date: 2021-06-06 15:54:07
-category: 'Books'
+category: 'review'
 draft: false
 ---
 

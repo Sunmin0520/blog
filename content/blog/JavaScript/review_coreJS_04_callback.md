@@ -1,7 +1,7 @@
 ---
-title: '[코어 자바스크립트] 04. 콜백 함수'
+title: '[JS] [코어 자바스크립트] 04. 콜백 함수'
 date: 2021-02-04 10:46:13
-category: 'JavaScript'
+category: 'javaScript'
 draft: false
 ---
 

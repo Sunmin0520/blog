@@ -1,7 +1,7 @@
 ---
-title: '[코어 자바스크립트] 03. this'
+title: '[JS] [코어 자바스크립트] 03. this'
 date: 2021-02-10 23:33:07
-category: 'JavaScript'
+category: 'javaScript'
 draft: false
 ---
 

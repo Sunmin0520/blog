@@ -1,7 +1,7 @@
 ---
-title: '자바스크립트 엔진, 런타임, 콜스택, 메모리힙, 지연시간'
+title: '[JS] 자바스크립트 엔진, 런타임, 콜스택, 메모리힙, 지연시간'
 date: 2021-02-12 09:00:07
-category: 'JavaScript'
+category: 'javaScript'
 draft: false
 ---
 ## 콜스택, 힙

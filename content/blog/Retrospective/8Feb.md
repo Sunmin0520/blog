@@ -1,7 +1,7 @@
 ---
 title: '[TIL] 2월 8일 월요일'
 date: 2021-2-8 21:41:00
-category: 'Retrospective'
+category: 'retrospective'
 draft: false
 ---
 ## 좋았던 점

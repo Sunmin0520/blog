@@ -1,5 +1,5 @@
 ---
-title: '글로벌이 회사 깃헙 계정인 맥북으로 개인 깃헙 계정의 repo 이용 '
+title: '[security] 글로벌이 회사 깃헙 계정인 맥북으로 개인 깃헙 계정의 repo 이용 '
 date: 2021-12-12 18:37:07
 category: 'uncategorized'
 draft: false

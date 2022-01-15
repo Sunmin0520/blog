@@ -1,7 +1,7 @@
 ---
-title: '[코어 자바스크립트] 06. 프로토타입'
+title: '[JS] [코어 자바스크립트] 06. 프로토타입'
 date: 2021-02-09 13:50:07
-category: 'JavaScript'
+category: 'javaScript'
 draft: false
 ---
 - 클래스 기반 언어에서는 '상속'을 사용

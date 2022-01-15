@@ -1,7 +1,7 @@
 ---
-title: 'URL을 입력하면 일어나는 일은?'
+title: '[Web] URL을 입력하면 일어나는 일은?'
 date: 2021-2-17 19:49:00
-category: 'Web'
+category: 'web'
 draft: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: '자주 쓰는 command line'
+title: '[git] 자주 쓰는 command line'
 date: 2021-1-31 07:36:00
 category: 'git'
 draft: false

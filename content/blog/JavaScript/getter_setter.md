@@ -1,7 +1,7 @@
 ---
-title: '접근자 프로퍼티와 getter, setter'
+title: '[JS] 접근자 프로퍼티와 getter, setter'
 date: 2021-03-07 16:09:07
-category: 'JavaScript'
+category: 'javaScript'
 draft: false
 ---
 <p>

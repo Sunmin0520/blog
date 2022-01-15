@@ -1,7 +1,7 @@
 ---
-title: 'REST API'
+title: '[Web] REST API'
 date: 2021-2-7 20:27:00
-category: 'Web'
+category: 'web'
 draft: false
 ---
 - Representaional State Transfer: HTTP프로토콜을 의도에 맞게 디자인해서 웹의 장점을 최대한 활용하는 아키텍처

@@ -1,7 +1,7 @@
 ---
-title: 'JavaScript에서의 배열과 객체'
+title: '[JS] JavaScript에서의 배열과 객체'
 date: 2021-02-11 21:38:07
-category: 'JavaScript'
+category: 'javaScript'
 draft: false
 ---
 ## 자료구조에서의 배열

@@ -1,7 +1,7 @@
 ---
-title: 'RDBMS, NoSQL, 분산 데이터베이스'
+title: '[DB] RDBMS, NoSQL, 분산 데이터베이스'
 date: 2021-02-22 12:18:13
-category: 'Database'
+category: 'database'
 draft: false
 ---
 

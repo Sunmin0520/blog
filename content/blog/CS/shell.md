@@ -1,7 +1,7 @@
 ---
-title: 'shell, kernel'
+title: '[CS] shell, kernel'
 date: 2021-02-12 00:00:07
-category: 'CS'
+category: 'cs'
 draft: false
 ---
 - kernel을 둘러싼 shell

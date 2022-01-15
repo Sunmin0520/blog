@@ -1,7 +1,7 @@
 ---
-title: '2월 넷째 주 회고(2/22 ~ 2/28)'
+title: '[회고] 2월 넷째 주 회고(2/22 ~ 2/28)'
 date: 2021-03-01 18:24:07
-category: 'Retrospective'
+category: 'retrospective'
 draft: false
 ---
 <p>

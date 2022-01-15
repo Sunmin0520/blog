@@ -1,7 +1,7 @@
 ---
-title: '컴퓨터의 동작 원리'
+title: '[CS] 컴퓨터의 동작 원리'
 date: 2021-02-27 08:17:07
-category: 'CS'
+category: 'cs'
 draft: false
 ---
 <P>

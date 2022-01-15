@@ -1,7 +1,7 @@
 ---
-title: '[코어 자바스크립트] 02. 실행 컨텍스트'
+title: '[JS] [코어 자바스크립트] 02. 실행 컨텍스트'
 date: 2021-02-06 16:54:13
-category: 'JavaScript'
+category: 'javaScript'
 draft: false
 ---
 ## 1. 실행 컨텍스트란?

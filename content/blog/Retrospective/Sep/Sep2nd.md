@@ -1,7 +1,7 @@
 ---
 title: '[회고] 9월 둘째 주'
 date: 2021-09-12 18:00:07
-category: 'Retrospective'
+category: 'retrospective'
 draft: false
 ---
 
@@ -27,7 +27,7 @@ docker ps | grep 특정문구//특정 문구가 들어가는지 확인
 ```
 
 ```js
-code /etc/ssh/ssh_config//**모든 사용자(전역)에 대한 설정**
+code /etc/ssh/ssh_config //**모든 사용자(전역)에 대한 설정**
 ```
 
 - 두 브랜치 간의 차이점 파악

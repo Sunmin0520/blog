@@ -1,6 +1,6 @@
 ---
 title: '[서적] 프로그래머의 뇌'
-date: 2022-02-96 08:00:00
+date: 2022-02-06 08:00:00
 category: 'review'
 draft: false
 ---

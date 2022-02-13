@@ -1,7 +1,7 @@
 ---
 title: '우당당탕 헤매면서 알아가는 과정'
 date: 2022-02-13 22:10:00
-category: 'trial and error'
+category: 'trial_and_error'
 draft: false
 ---
 # CS

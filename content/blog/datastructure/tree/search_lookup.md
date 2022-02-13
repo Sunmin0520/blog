@@ -2,7 +2,7 @@
 title: '[자료구조][Tree] BST의 search, lookup'
 date: 2022-02-07 23:55:00
 category: 'datastructure'
-draft: false
+draft: true
 ---
 
 ```js

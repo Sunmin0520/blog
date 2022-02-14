@@ -1,5 +1,5 @@
 ---
-title: 'VS Code에서 github repo와의 연결이 끊겼을 때'
+title: '[기타] VS Code에서 github repo와의 연결이 끊겼을 때'
 date: 2022-02-14 21:38:07
 category: 'etc.'
 draft: false

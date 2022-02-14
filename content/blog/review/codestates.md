@@ -1,7 +1,7 @@
 ---
 title: '[리뷰] 코드스테이츠의 취업 후 상환 제도를 이용하며'
 date: 2021-05-01 15:45:07
-category: 'etc.'
+category: 'review'
 draft: false
 ---
 ## 선택은 신중하게, 빚을 질 때는 더욱 신중하게.

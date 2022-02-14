@@ -12,7 +12,7 @@ draft: false
     - github repo 이름 변경에 따라 로컬에서도 디렉토리 이름 및 remote origin 변경  
 
 - Initiailize Repository 버튼은 비활성화되어 눌러도 아무 반응이 없고, 좌측 하단의 user 버튼 'Loading...'이라고만 나오며 아무 것도 나오지 않는다.  
-- vs code를 껐다가 켜는 것으로는 해결되지 않았다.
+- vs code를 껐다가 켜는 것으로는 해결되지 않았다. 
 
 <br/>
 
@@ -21,6 +21,7 @@ draft: false
 ## 해결 방법
 - 위와 같은 상태라면 Code 탭에 'Restart to update'라는 기능이 활성화된다.  
 클릭하면 모든 vs code창이 꺼졌다가 켜지면서 다시 repo와 연결이 되고, 'Restart to update'기능은 아래 이미지와 같이 사라져 있다.
+- 찾아보다가 해결방법이 안 나와서 컴퓨터를 껐다 켰을 때에도 동일하게 정상 작동하기 시작했는데, VS Code가 완전히 꺼졌다가 켜짐으로써 가능했던 것으로 예상된다.
 
 <br/>
  

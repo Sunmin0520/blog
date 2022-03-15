@@ -15,3 +15,32 @@
 - 필요한 것을 하자.
 
 [도커 컨테이너는 가상머신인가요? 프로세스인가요?](https://www.44bits.io/ko/post/is-docker-container-a-virtual-machine-or-a-process)
+
+[clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript#objects-and-data-structures)
+
+
+[The Clean Architecture — Beginner’s Guide](https://betterprogramming.pub/the-clean-architecture-beginners-guide-e4b7058c1165)
+
+[This is why your Node.js application is slow](https://dev.to/imichaelowolabi/this-is-why-your-nodejs-application-is-slow-206j)
+
+
+[REST and the future of APIs](https://levelup.gitconnected.com/rest-and-the-future-of-apis-ef9cf4e1706b)
+- gRPC?
+- GraphQL
+- REST 
+
+
+[Productivity Tips From Developers to Developers](https://dev.to/coffeestasia/productivity-tips-from-developers-to-developers-4j75)
+- 커밋은 '내가 한 일'이 아닌 '내가 그 일을 한 이유'
+- Communicate, ask dumb questions to your colleagues, it doesn't matter, this shouldn't be a problem.
+- 이해하지 못하는 것의 todo list 만들고 그것을 설명할 것
+- Never rush to code. Plan first.
+- If you don't understand something, don't be ashamed.
+- 하루에 12시간 일해도 3시간동안만 생산적일 수 있다. 정말 중요한 것은 4시간의 deep work와 regular breaks.
+- Determine what you need to accomplish each day.
+- Write down what you've completed each day before going to bed.
+- 내가 무엇을 하고 있는지 확실히 인지하기
+
+
+[GOV.UK Design System](https://design-system.service.gov.uk/styles/)
+- 완전 재밌다. 블로그 이렇게 바꿔볼까

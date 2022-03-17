@@ -44,3 +44,14 @@
 
 [GOV.UK Design System](https://design-system.service.gov.uk/styles/)
 - 완전 재밌다. 블로그 이렇게 바꿔볼까
+
+[10 things high achievers always do (but never talk about)](https://hackspirit.com/traits-of-high-achievers/)
+- 실패함에도 계속 시도. 계속해서 올라가지 않으면 그동안의 노력은 0이 된다.
+- 단점을 숨기기보다 극복하자.
+- 미룰 수 있는 명분, 핑계의 선택지를 제거하고 집중하자.
+- 내가 한 것에 대해서 책임을 진다.
+
+[How we handle 80TB and 5M page views a month for under $400](https://blog.polyhaven.com/how-we-handle-80tb-and-5m-page-views-a-month-for-under-400/)
+- 블로그 글의 배포에 netlify를 사용하고 있다.   
+그러던 중 netlify와 달리 cloudflare를 이용시 무료 사용에도 전송량 제약이 없다는 것을 알았다. 사실 netlify의 리밋만큼 글을 쓰고 있지는 않지만, cloudflare 자체에 관심이 갔고 그러던 중 관련 글을 보게 되어 재밌었다.
+

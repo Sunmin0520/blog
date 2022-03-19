@@ -2,7 +2,7 @@
 title: '[서적] 실용주의 프로그래머'
 date: 2021-08-30 08:00:00
 category: 'review'
-draft: false
+draft: true
 ---
 <p>
 

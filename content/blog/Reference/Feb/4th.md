@@ -1,7 +1,7 @@
 ---
 title: '[Reference] 2월 넷째 주에 본 레퍼런스들'
 date: 2022-02-27 12:57:13
-category: 'Reference'
+category: 'reference'
 draft: false
 ---
 

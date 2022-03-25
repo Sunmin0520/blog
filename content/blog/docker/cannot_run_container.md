@@ -1,7 +1,7 @@
 ---
-title: '[Docker] 컨테이너가 띄워지지 않을 때 '
+title: '[Docker] 컨테이너가 띄워지지 않을 때'
 date: 2022-02-14 22:57:07
-category: 'etc.'
+category: 'docker'
 draft: false
 ---
 
@@ -12,9 +12,10 @@ draft: false
 ```js
 //9000:3000으로 docker run하고  & docker ps --no-trunc 에서 PORTS 부분
 5000/tcp, 0.0.0.0:9000->3000/tcp 
-````
+```
 
 ## 문제 해결
+
 - 해당 이미지에 관한 문서는 아니지만 MS의 다른 문서에서
 `To access the running app from the host running the containers use the container IP and port 5000` 라는 문구가 있었고, 무엇보다 바로 위의 9000:3000에서 `5000/tcp` 부분이 나와서 9000:5000으로 변경해보니 원하는대로 잘 실행되었다.
 

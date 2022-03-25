@@ -10,5 +10,7 @@ draft: false
 
 # Docker
 - [컨테이너 지정 포트 번호가 있을 때](https://sunmin.netlify.app/docker/cannot_run_container/)
+- [docker-compose.yml에서 특정 컨테이너만 띄우기](https://sunmin.netlify.app/docker/run_a_container_in_docker_compose/) 
+
 # 기타
 - [VS Code에서 github repo와의 연결이 끊겼을 때](https://sunmin.netlify.app/etc./vscode_github_not_working/)

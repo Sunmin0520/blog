@@ -3,10 +3,6 @@
   "private": true,
   "description": "Gatsby blog starter template",
   "version": "0.1.0",
-  "author": "Jbee[JaeYeopHan]<ljyhanll@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/JaeYeopHan/gatsby-starter-bee/issues"
-  },
   "dependencies": {
     "gatsby": "^2.2.8",
     "gatsby-image": "^2.0.34",

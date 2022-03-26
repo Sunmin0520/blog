@@ -2,8 +2,7 @@ module.exports = {
   title: `Better Than Yesterday`,
   description: `Blog posted about ...`,
   author: `Sunmin`,
-  introduction: `어제보다 나은 오늘을 만들기 위해 새롭게 배우고, 기록하고, 회고합니다. \n
-  Maker. Reader. Realistic optimist`,
+  introduction: `어제보다 나은 오늘을 만들기 위해 새롭게 배우고, 기록하고, 회고합니다. Maker. Reader. Realistic optimist`,
   siteUrl: `https://sunmin.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -20,9 +19,6 @@ module.exports = {
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
-  },
-  sponsor: {
-    buyMeACoffeeId: 'jbee',
   },
   share: {
     facebookAppId: '233104818516942', // Add facebookAppId for using facebook share feature v3.2

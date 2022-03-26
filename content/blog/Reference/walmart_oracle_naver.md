@@ -1,7 +1,7 @@
 ---
 title: '[아티클] Walmart, ORACLE 2020, Naver blog'
 date: 2021-09-05 22:10:00
-category: 'articles'
+category: 'reference'
 draft: false
 ---
 

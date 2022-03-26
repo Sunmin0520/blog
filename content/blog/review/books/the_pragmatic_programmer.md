@@ -1,7 +1,7 @@
 ---
 title: '[서적] 실용주의 프로그래머'
 date: 2022-03-19 11:13:07
-category: 'books'
+category: 'review'
 draft: false
 ---
 

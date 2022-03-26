@@ -1,7 +1,7 @@
 ---
 title: '[TIL] Learned - 5th Week/인프라,enum,SSH,TDZ '
 date: 2021-05-30 10:52:07
-category: 'til'
+category: 'retrospective'
 draft: false
 ---
 

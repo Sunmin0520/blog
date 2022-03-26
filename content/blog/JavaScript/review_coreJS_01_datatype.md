@@ -1,7 +1,7 @@
 ---
-title: '[JS] [코어 자바스크립트] 01.데이터 타입'
+title: '[JS][코어 자바스크립트] 01.데이터 타입'
 date: 2021-02-2 11:25:13
-category: 'javaScript'
+category: 'javascript'
 draft: false
 ---
 

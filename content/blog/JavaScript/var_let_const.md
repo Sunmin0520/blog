@@ -1,7 +1,7 @@
 ---
 title: '[JS] var, let, const'
 date: 2021-02-07 22:44:13
-category: 'javaScript'
+category: 'javascript'
 draft: false
 ---
 ## var로 선언한 변수의 문제점

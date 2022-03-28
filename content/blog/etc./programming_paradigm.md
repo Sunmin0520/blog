@@ -1,5 +1,5 @@
 ---
-title: '[방법론] Object-oriented, Procedural, Functional, Imperative, Declarative programming '
+title: '[programming paradigm] Object-oriented, Procedural, Functional, Imperative, Declarative programming '
 date: 2022-03-27 15:13:07
 category: 'etc.'
 draft: false
@@ -8,21 +8,17 @@ draft: false
 # Object-oriented Programming과 Procedural Programming
 
 ## OOP
-- 현실세계처럼, 사람의 사고방식처럼 **객체** 단위로 상태와 행위를 정의
+- 현실세계처럼, 사람의 사고방식처럼 **"객체"** 단위로 상태와 행위를 정의
+- 데이터(상태, 변수)와 처리방법(메서드)를 하나의 객체에서 관리
+    - 작은 문제를 해결하는 것을 모아서 하나의 문제를 해결(Bottom-up)
 - 데이터의 숨김이 가능하다.
-- 기능보다는 데이터를 중시 
-
-<br/>
-
-- JS는 프로토타입 기반의 객체지향 언어
-  - ES6에서 Class 를 지원하긴 하지만, 새로운 객체 지향 모델의 제공은 아니다. Class도 함수이고, 기존 프로토타입 기반 패턴의 syntatic sugar
-  - js는 public, private 등의 키워드를 제공하지는 않음. 하지만 function level scope를 제공하기에 함수 내부의 변수는 외부에서 참조 불가
-
 
 ## Procedural Programming
-- 위에서 아래로 호출 절차 기반해서 **함수**로 행위를 구분 
-- 데이터보다는 기능을 중시
-- 절차지향 프로그래밍의 형식에 기반해서 각각의 기능 단위로 함수를 잘게 쪼개서 사용하는 것이 함수형 프로그래밍이라고 생각된다.
+- 위에서 아래로 호출 절차 기반해서 **"함수"**로 행위를 구분 
+- 데이터와 처리방법을 분리해서 처리
+  - 특정 작업하는 코드 만들어두고, 그것을 호출하고 원래 자리로 다시 돌아오는 procedure를 통해 개발(Top-down)
+- 절차지향 프로그래밍의 형식에 기반해서 각각의 기능 단위로 함수를 잘게 쪼개서 사용하는 것이 함수형 프로그래밍이라고 생각된다.  
+  (절차지향형 프로그래밍과 함수형 프로그래밍을 같다고 볼 수는 없지만, 둘의 엄격한 구분이 크게 의미가 있을까 싶다)
 
 <br/>
 
@@ -48,6 +44,12 @@ draft: false
 - 함수형 프로그래밍만을 지원하는 언어도 있고, 함수형 프로그래밍의 특징도 함께 지원하는 언어도 있다.(JS, Java, Python, C++, Scala, Go, Rust 등)
   - 둘 중 하나의 패러다임만을 선택하는 것이 아닌 필요에 따라 적절한 선택이 필요
 
+### JS는 프로토타입 기반의 객체지향 언어
+- ES6에서 Class 를 지원하긴 하지만, 새로운 객체 지향 모델의 제공은 아니다. Class는 기존의 prototype-chaning 개념의 syntatic sugar일 뿐.
+- Javascript는 함수형 언어도 객체지향 언어도 아니지만 또 함수형 언어이기도 하고 객체지향 언어이기도 하다. 그리고 중요한 것은 하나의 프로그래밍 이론에 집착하지 않고 필요에 따라 선택하는 것이다.
+  - 객체 단위로 독립적 단위를 만들어놓고, 객체들의 결합이 너무 높아질 경우 굳이 객체가 필요없는 부분은 함수형으로 만들어서 사용하자.   
+    즉 **최종 목적은 간단하고, 가독성 좋고, 덩치가 커져도 유지보수가 쉬우며, 재사용성이 좋은 코드를 만드는 것!**
+
 <br/>
 
 # Imperative Programming과 Declarative programming
@@ -63,7 +65,7 @@ const newArr = [];
 for (let i = 0; i < arr.length; i++) {//0번째 인덱스부터 하나씩 늘려나감
   if (arr[i].length !== 0) {//길이가 0이 아니라면 
     newArr.push(
-      arr[i].charAt(0).toUpperCase() + arr[i].substring(1)//첫 글자를 대문자로 변경해서 push.즉 어떻게 할 것인가에 집중 
+      arr[i].charAt(0).toUpperCase() + arr[i].substring(1)//첫 글자를 대문자로 변경해서 push.즉 "어떻게 할 것인가"에 집중 
     );
   }
 }
@@ -122,3 +124,4 @@ const newArr2 = arr
 - https://codeburst.io/declarative-vs-imperative-programming-a8a7c93d9ad2
 - https://evan-moon.github.io/2019/12/15/about-functional-thinking/
 - https://evan-moon.github.io/2019/08/24/what-is-object-oriented-programming/
+- https://yozm.wishket.com/magazine/detail/1396/

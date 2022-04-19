@@ -9,16 +9,6 @@ draft: false
   - 오랜만에 들어가는 서버에 접속이 안 되어서 찾아보니 접속정보가 바뀌어 있었다.  
     .ssh/config에 들어가 ProxyJump 정보를 수정하니 접근이 가능해졌고, 이 참에 관련 내용들을 한번에 정리하고 싶었다.
 
-# ssh  
-- 원격으로 다른 시스템에 로그인할 때 사용 (더 정확히는 원격 서버를 더 안전하게 제어 위한 프로토콜 혹은 그 프로토콜에서 사용하는 프로그램들)
-- 각 ssh 접속 정보들은 Host, Hostname, User, IdentityFile, ProxyJump 등을 가진다.
-  - `code ~/.ssh` 입력해서 .ssh/config 열어서 정보 CRUD한다.
-  
-  <img src="https://user-images.githubusercontent.com/79896443/153759286-e6388b16-9093-49e8-b7e2-37bf560e290c.jpg" width="400" >
-
-- 원격 서버 들어가는 방법
-  - host이름이 server1이라면 `ssh server1`입력  
-- ProxyJump: 로컬에서 특정 서버에 바로 들어갈 수 없을 때 거쳐가야 하는 Host를 ProxyJump에 적는다.
 
 # etc/hosts
 - `code /etc/hosts`
@@ -40,6 +30,21 @@ draft: false
 - localhost: 내 컴퓨터의 주소를 부르는 용어
   - IPv4일 때는 127.0.0.1, IPv6일 때는 ::1의 IP주소로 localhost DNS
 
+# ssh  
+- 원격으로 다른 시스템에 로그인할 때 사용 (더 정확히는 원격 서버를 더 안전하게 제어 위한 프로토콜 혹은 그 프로토콜에서 사용하는 프로그램들)
+- 각 ssh 접속 정보들은 Host, Hostname, User, IdentityFile, ProxyJump 등을 가진다.
+  - `code ~/.ssh` 입력해서 .ssh/config 열어서 정보 CRUD한다.
+  
+  <img src="https://user-images.githubusercontent.com/79896443/153759286-e6388b16-9093-49e8-b7e2-37bf560e290c.jpg" width="400" >
+
+- 원격 서버 들어가는 방법
+  - host이름이 server1이라면 `ssh server1`입력  
+- ProxyJump: 로컬에서 특정 서버에 바로 들어갈 수 없을 때 거쳐가야 하는 Host를 ProxyJump에 적는다.
+
+# Root Directory VS Home Directory
+- Root Directory: 시스템 드라이브의 최상위 레벨. '/'
+- Home Directory: Root directory의 subdirectory. '~'
+  - '~'는 실제로는 /Users/sunmin의 path 
 
 # port
 - 포트: 하나의 서버에는 여러 개의 서버 설치될 수 있고, 각 서버마다 포트 번호 따로 지정해서 구분하는 주소 개념

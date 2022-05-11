@@ -1,7 +1,7 @@
 ---
 title: '[서적] 클린코드'
 date: 2022-03-01 13:23:07
-category: 'review'
+category: 'books'
 draft: false
 ---
 # 1. 깨끗한 코드

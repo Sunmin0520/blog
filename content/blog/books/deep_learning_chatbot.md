@@ -1,7 +1,7 @@
 ---
 title: '[서적] 처음 배우는 딥러닝 챗봇'
 date: 2022-03-26 17:02:07
-category: 'review'
+category: 'books'
 draft: false
 ---
 

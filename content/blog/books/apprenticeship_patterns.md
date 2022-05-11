@@ -1,7 +1,7 @@
 ---
 title: '[서적] 프로그래머의 길, 멘토에게 묻다'
 date: 2022-05-12 07:26:07
-category: 'review'
+category: 'books'
 draft: false
 ---
 - 마음이 많이 힘들 때, 이 책을 읽고 큰 용기와 위안을 얻었다.  

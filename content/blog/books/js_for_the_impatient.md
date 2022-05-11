@@ -1,7 +1,7 @@
 ---
 title: '[서적] 무던한 개발자를 위한 모던한 자바스크립트'
 date: 2022-02-20 11:34:07
-category: 'review'
+category: 'books'
 draft: false
 ---
 

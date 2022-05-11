@@ -1,7 +1,7 @@
 ---
 title: '도서 목록'
 date: 2022-05-01 00:00:00
-category: 'review'
+category: 'books'
 draft: false
 ---
 

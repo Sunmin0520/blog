@@ -1,7 +1,7 @@
 ---
 title: '[서적] 유연한 소프트웨어를 만드는 설계 원칙'
 date: 2022-04-23 12:15:07
-category: 'review'
+category: 'books'
 draft: false
 ---
 

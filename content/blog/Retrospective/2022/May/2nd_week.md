@@ -70,3 +70,4 @@ draft: false
 
 - 기록해두지 않는 일에 대한 나중은 없다. 기록을 해두었더라도 언제 할 것인지를 반드시 생각해두자.
 - 타인에게 피해가 가는 것이 아니라면 내 삶에 있어서는 내 의견이 가장 중요하다. 내가 행복할 수 있는 방법대로 성실하고 재미있게 시간을 보내자.
+- Your time is limited, so don't waste it living someone else's life.

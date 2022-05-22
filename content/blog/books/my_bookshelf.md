@@ -14,8 +14,14 @@ draft: false
 - descending order by date
 
 # 목록
+- 면접을 위한 CS 전공지식 노트
+  - 2022.05
+  - 리뷰
+- 함께 자라기
+  - 2022.05
 - 프로그래머의 길, 멘토에게 묻다
   - 2022.04
+  - [리뷰](https://sunmin.netlify.app/books/growing_up_together/)
   -
   -
 

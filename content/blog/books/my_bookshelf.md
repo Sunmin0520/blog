@@ -2,7 +2,7 @@
 title: '도서 목록'
 date: 2022-05-01 00:00:00
 category: 'books'
-draft: false
+draft: true
 ---
 
 # 규칙
@@ -41,5 +41,3 @@ draft: false
 - [ ] 읽은 책들 업데이트  
 - [ ] 읽었는데 리뷰 남기지 않은 책들 리뷰 작성  
 - [ ] 새로운 책들 계속 업데이트
-
-

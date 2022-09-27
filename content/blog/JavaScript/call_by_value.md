@@ -153,3 +153,14 @@ console.log(obj)//{a: 0, b: 10} call 함수를 통해 객체 자체의 값이 �
 # 결론  
 자바스크립트에서는 값에 의한 호출만 있다.  
 다만 매개변수가 객체인 경우, 참조값을 호출하므로 객체의 값이 변하면 그 객체의 참조값을 메모리에 가지고 있는 모든 식별자에서 사용할 수 있는 값이 변할 수 있다. (case 2)  하지만 그 과정에서 객체의 구조 자체가 깨지면 더 이상 참조는 이어지지 않는다. (case 3)
+
+
+<br />
+<br />
+
+**출처** 
+- [https://developer.mozilla.org/en-US/docs/Glossary/Primitive#:~:text=In JavaScript%2C a primitive](https://developer.mozilla.org/en-US/docs/Glossary/Primitive#:~:text=In%20JavaScript%2C%20a%20primitive%20primitive,has%20no%20methods%20or%20properties)
+- https://www.youtube.com/watch?v=__Zz17_5FRU&t=815s&ab_channel=드림코딩
+- 이병래, 전중남, C++프로그래밍(출판문화원, 2019)
+- 이웅모, 모던 자바스크립트 Deep Dive(위키북스, 2020)
+</p>

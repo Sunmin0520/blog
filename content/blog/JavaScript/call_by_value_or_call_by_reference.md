@@ -1,7 +1,7 @@
 ---
-title: '자바스크립트에는 call-by-reference가 가능할까?'
+title: '[JS] 자바스크립트는 call-by-reference가 가능할까?'
 date: 2022-09-27 09:00:07
-category: 'JavaScript'
+category: 'javaScript'
 draft: false
 ---  
 C++에서 call-by-reference, call-by-value를 배우면서 자바스크립트에서는 두 개념이 어떻게 사용되고 있는지에 대해 확실히 정리해야겠다고 생각했다.  

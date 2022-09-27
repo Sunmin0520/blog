@@ -2,7 +2,7 @@
 title: '[JS][코어 자바스크립트] 03. this'
 date: 2021-02-10 23:33:07
 category: 'javascript'
-draft: false
+draft: true
 ---
 
 - this는 함수와 객체(메서드)를 구분지어 준다.

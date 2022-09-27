@@ -2,7 +2,7 @@
 title: '[JS][코어 자바스크립트] 04. 콜백 함수'
 date: 2021-02-04 10:46:13
 category: 'javascript'
-draft: false
+draft: true
 ---
 
 ## 1. 콜백 함수란?

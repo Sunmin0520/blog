@@ -2,7 +2,7 @@
 title: '[JS][코어 자바스크립트] 02. 실행 컨텍스트'
 date: 2021-02-06 16:54:13
 category: 'javascript'
-draft: false
+draft: true
 ---
 ## 1. 실행 컨텍스트란?
 - 실행컨텍스트: 실행할 코드에 제공할 환경 정보들을 모아놓은 객체<font size="2">(JS엔진이 생성할 뿐, 우리가 직접 코드로 확인은 불가)</font>

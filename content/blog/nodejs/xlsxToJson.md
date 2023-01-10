@@ -11,13 +11,15 @@ draft: false
 
 ## 방법
 
-xlsx 모듈을 이용하여 아주 간단하게 변환할 수 있다.  
-  아래와 같은 데이터가 담긴 엑셀파일이 있다고 가정해보자.  
-  지정한 위치에 변환이 필요한 엑셀파일을 위치시키고, express app을 실행시킨 후 http://localhost:8080/excel 에 접속시 응답 값으로 파일의 내용을 확인할 수 있다.  
+**xlsx 모듈**을 이용하여 아주 간단하게 변환할 수 있다.  
+아래와 같은 데이터가 담긴 엑셀파일이 있다고 가정해보자.  
+지정한 위치에 변환이 필요한 엑셀파일을 위치시키고,  
+express app을 실행시킨 후 http://localhost:8080/excel 에 접속시 응답 값으로 내용을 확인할 수 있다.  
 
-  <img src="https://user-images.githubusercontent.com/79896443/211482004-20c97d32-220b-48d8-b1ef-e916cc41e4ec.png" width="260" />
+  <img src="https://user-images.githubusercontent.com/79896443/211495597-d6b0b2a9-58da-4f18-a155-f1a8112d44c3.png" width="270" />
 
-  <img src="https://user-images.githubusercontent.com/79896443/211482012-aa55414b-50d5-406e-bf4b-14d3b870c095.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/79896443/211496327-74f77611-cb4b-488f-9a74-1b2b9219fe72.png" width="400" />
+
 
 ```js
 const express = require("express");
@@ -27,22 +29,21 @@ const port = 8080;
 
 app.get("/excel", (req, res) => {
   const xlsxFile = XLSX.readFile(__dirname + "/public/file.xlsx");
-  const xlsxFileContents = xlsxFile.Sheets;
-  res.json(xlsxFileContents);
+  const xlsxContents = xlsxFile.Sheets;
+  res.json(xlsxContents);
 });
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
 ```
-
-  <img src="https://user-images.githubusercontent.com/79896443/211483957-e7d39f74-c8fc-4b2c-b92c-938465c1e594.png" width="1400" />
-
-조금 더 정렬된 형태로 살펴보면 아래와 같으므로 각 시트에서 필요한 값을 이용할 수 있다.
+브라우저에 응답으로 표시된 내용을 조금 더 정렬된 형태로 살펴보면 아래와 같으므로 각 시트에서 필요한 값을 이용할 수 있다.  
+다만 아래와 같은 형태라면 실질적으로 필요한 값 이외의 다른 값들도 포함되어 있을 가능성이 크다.  
+따라서 모든 값을 가져오기 보다는 xlsx 모듈에서 제공하는 별도의 메서드를 활용하는 것이 좋다.
 
 ```JSON
 {
-  "Sheet1": {
+  "Company": {
     "!ref": "A1:B4",
     "A1": {
       "t": "s",
@@ -95,7 +96,7 @@ app.listen(port, () => {
       "footer": 0.3
     }
   },
-  "sheet2": {
+  "Country": {
     "!ref": "A1:C3",
     "A1": {
       "t": "s",
@@ -169,5 +170,52 @@ app.listen(port, () => {
       "footer": 0.3
     }
   }
+}
+```
+
+<br/>
+
+위에서 언급한 코드를 아래와 같이 변경하면 간결하고 효율적인 결과물을 얻을 수 있다.
+```js
+const express = require("express");
+const app = express();
+const XLSX = require("xlsx");
+const port = 8080;
+
+app.get("/excel", (req, res) => {
+  const xlsxFile = XLSX.readFile(__dirname + "/public/file.xlsx");
+  const xlsxContents = xlsxFile.Sheets;
+
+  const usefulContents = [];
+  let result = {};
+  for (let sheet in xlsxContents) {
+    const usefulContentsBySheet = XLSX.utils.sheet_to_json(xlsxContents[sheet]);
+    usefulContents.push(usefulContentsBySheet);
+    result[sheet] = usefulContentsBySheet
+  }
+  res.json(result);
+});
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
+```
+
+  <img src="https://user-images.githubusercontent.com/79896443/211495819-428132c1-cf43-4c34-88c9-a77fe46759dc.png" width="900" />
+
+```JSON
+{
+  "Company": [
+    { "Company": "MS", "Product": "Azure" },
+    { "Company": "Amazon", "Product": "AWS" }
+  ],
+  "Country": [
+    {
+      "Country": "Korea",
+      "Continent": "Asia",
+      "Info": "{\"city\":\"Seoul\", \"Jeju\"}"
+    },
+    { "Country": "UK", "Continent": "Europe", "Info": "{\"code\":44}" }
+  ]
 }
 ```

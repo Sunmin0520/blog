@@ -5,6 +5,8 @@ category: 'database'
 draft: false
 ---
 
+> MongoDB를 사용시, 동일한 데이터의 복제본을 여러 개 만들어서 데이터의 가용성을 높일 수 있다고 한다!
+
 ## MongoDB Replication을 위한 용어들
 
 - `mongod` MongoDB 시스템을 위한 primary daemon process  
@@ -184,10 +186,10 @@ primary(아래 이미지에서 왼쪽 터미널)에서 삭제 후 secondary(오�
 <img src="https://user-images.githubusercontent.com/79896443/215315826-89e4d5a6-94a8-4c35-be9a-4e6e059455e3.png" width=1000>
 
 
-## 생각
-- primary와 별개로 secondary replica들을 두어서 데이터가 손실되지 않도록 관리할 수 있는 점이 흥미로웠다.
-- MongoDB 문서가 무척 상세하게 잘 나와있어 참고하기에 무척 좋았다. 
-- docker network에 대해 좀 더 자세하게 알아봐야겠다!  
+## todo
+- election이 되는 과정을 확인해볼 수 있을까?   
+사용자가 의도적으로 primary에서 데이터를 삭제하고, 그것이 동일하게 secondary에서도 확인가능한 것과 달리 primary의 사용이 불가해졌을 때 기존의 secondary가 어떻게 그 역할을 하는지 궁금하다.
+- docker network에 대해 좀 더 자세하게 알아보자.
 
 ## 출처    
 [https://www.mongodb.com/docs/manual/replication/](https://www.mongodb.com/docs/manual/replication/)  

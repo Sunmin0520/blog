@@ -14,7 +14,7 @@ draft: false
 ### 시도 1.  
 
 **처음에는 가장 기본적으로 vscode의 텍스트 검색으로 6개 파일 중 내가 필요한 5개 파일 각각에서 정규식으로 단어를 찾아서 복붙할 예정이었다.**  
-5개 파일의 내용을 묶은 새로운 파일을 만들어놓았지만,  vscode 텍스트 검색은 반복을 돌려야하는 전체 데이터의 개수가 특정 수를 넘어가면 아주 느려지기 때문에 그 파일은 사용하기 어려웠다.  
+5개 파일의 내용을 묶은 새로운 파일을 만들어놓았지만, vscode 텍스트 검색은 반복을 돌려야하는 전체 데이터의 개수가 특정 수를 넘어가면 아주 느려지기 때문에 그 파일은 사용하기 어려웠다.  
 예전에 대용량의 텍스트 파일 작업시 사용했던 BBEdit을 다시 설치해서 사용해볼까 싶었지만,   
 금세 끝날 작업이라 생각했고 파일 수도 몇 개 안 되기에 설치가 더 귀찮았다 🥲  
 그래서 ‘시’ 정보를 찾는 것이면 `[가-힣]시$` 로 각각의 파일에 대해 검색을 해서 데이터를 찾을 예정이었다.  
@@ -26,7 +26,6 @@ draft: false
 ```js
 울릉군
 창원시
-성산구
 마산합포구
 마산회원구
 진해구
@@ -62,22 +61,21 @@ const { promises: fsPromises } = require("fs");
 
 function readFile(filename) {
   return fsPromises
-    .  readFile(filename, "utf-8") //특정 path의 파일을 텍스트 파일을 읽음
-    .  then((data) => {
-      const originalArr = data.  split(/\n/); //텍스트 파일의 내용을 각각의 단위로 잘라서 originalArr 배열 생성
+    .readFile(filename, "utf-8") //특정 path의 파일을 텍스트 파일을 읽음
+    .then((data) => {
+      const originalArr = data.split(/\n/); //텍스트 파일의 내용을 각각의 단위로 잘라서 originalArr 배열 생성
       const set = new Set(originalArr) //raw data 중 중복을 걸러내기 위해 사용
-      const uniqueArr = [.  .  .  set]
-      const result = uniqueArr.  filter((word) => word.  match(/[가-힣]구$/)); //'구'로 끝나는 데이터만 filter해서 result에 담음
+      const uniqueArr = [...set]
+      const result = uniqueArr.filter((word) => word.match(/[가-힣]구$/)); //'구'로 끝나는 데이터만 filter해서 result에 담음
       return result;
     })
     .  catch((err) => {
-      console.  log(err);
+      console.log(err);
     });
 }
 
 readFile("읽을 파일명") //파일 읽기
-.then((data) => fsPromises.writeFile(".  /result.txt", data)); //result의 내용을 result.txt라는 파일에 작성
-
+.then((data) => fsPromises.writeFile("./result.txt", data)); //result의 내용을 result.txt라는 파일에 작성
 ```
 
 이렇게 하니 5개 파일을 모두 합한 파일에서 필요한 데이터를 빠르게 읽을 수 있을 수 있어서 무척 편리했다!  

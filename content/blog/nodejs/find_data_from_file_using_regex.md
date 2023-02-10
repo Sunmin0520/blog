@@ -77,7 +77,7 @@ function readFile(filename) {
 }
 
 readFile("읽을 파일명") //파일 읽기
-.then((data) => fsPromises.writeFile("./result.txt", data"\r\n")); //result의 내용을 result.txt라는 파일에 작성
+.then((data) => fsPromises.writeFile("./result.txt", data + "\r\n")); //result의 내용을 result.txt라는 파일에 작성
 ```
 
 이렇게 하니 5개 파일을 모두 합한 파일에서 필요한 데이터를 빠르게 읽을 수 있을 수 있어서 무척 편리했다!  

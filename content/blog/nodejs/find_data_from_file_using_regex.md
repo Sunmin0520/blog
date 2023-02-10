@@ -14,9 +14,11 @@ draft: false
 ### 시도 1.  
 
 **처음에는 가장 기본적으로 vscode의 텍스트 검색으로 6개 파일 중 내가 필요한 5개 파일 각각에서 정규식으로 단어를 찾아서 복붙할 예정이었다.**  
-5개 파일의 내용을 묶은 새로운 파일을 만들어놓았지만, vscode 텍스트 검색은 반복을 돌려야하는 전체 데이터의 개수가 특정 수를 넘어가면 아주 느려지기 때문에 그 파일은 사용하기 어려웠다.  
+5개 파일의 내용을 묶은 새로운 파일을 만들어놓았지만, vs code 텍스트 검색은 반복을 돌려야하는 전체 데이터의 개수가 특정 수를 넘어가면 아주 느려지기 때문에 그 파일은 사용하기 어려웠다.  
 예전에 대용량의 텍스트 파일 작업시 사용했던 BBEdit을 다시 설치해서 사용해볼까 싶었지만,   
-금세 끝날 작업이라 생각했고 파일 수도 몇 개 안 되기에 설치가 더 귀찮았다 🥲  
+금세 끝날 작업이라 생각했고 파일 수도 몇 개 안 되기에 설치가 더 귀찮았다 🥲    
+(나중에는 BBEdit으로도 작업을 했는데 대량의 데이터를 다루기에는 확실히 vs code보다는 수월하지만,  
+vs code와 달리 없는 기능도 있어서 BBEdit, vs code, excel을 혼용해서 사용하는 것이 가장 좋다.)
 그래서 ‘시’ 정보를 찾는 것이면 `[가-힣]시$` 로 각각의 파일에 대해 검색을 해서 데이터를 찾을 예정이었다.  
 
 사실 이렇게 작업을 하면 되기는 하는데, 문제는 raw data 였다.   (이미 정리가 된 데이터였지만, 내가 사용할 input은 이 데이터였으니 raw data라고 명시)  
@@ -67,7 +69,7 @@ function readFile(filename) {
       const set = new Set(originalArr) //raw data 중 중복을 걸러내기 위해 사용
       const uniqueArr = [...set]
       const result = uniqueArr.filter((word) => word.match(/[가-힣]구$/)); //'구'로 끝나는 데이터만 filter해서 result에 담음
-      return result;
+      return result; // 원본 파일에서 중복만 제거하려면 return uniqueArr을 return 하면 된다.
     })
     .  catch((err) => {
       console.log(err);
@@ -75,7 +77,7 @@ function readFile(filename) {
 }
 
 readFile("읽을 파일명") //파일 읽기
-.then((data) => fsPromises.writeFile("./result.txt", data)); //result의 내용을 result.txt라는 파일에 작성
+.then((data) => fsPromises.writeFile("./result.txt", data"\r\n")); //result의 내용을 result.txt라는 파일에 작성
 ```
 
 이렇게 하니 5개 파일을 모두 합한 파일에서 필요한 데이터를 빠르게 읽을 수 있을 수 있어서 무척 편리했다!  

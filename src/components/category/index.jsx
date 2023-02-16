@@ -37,6 +37,7 @@ export const Category = ({ categories, category, selectCategory }) => {
           scrollToCenter={scrollToCenter}
         />
       ))}
+      <Item title={'Random'} selectedCategory={category} onClick={selectCategory} scrollToCenter={scrollToCenter} />
     </ul>
   )
 }

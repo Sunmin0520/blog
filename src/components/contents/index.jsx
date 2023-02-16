@@ -56,8 +56,12 @@ export const Contents = ({ posts, countOfInitialPost, count, category }) => {
         ({ node }) => node.frontmatter.category === 'database'
       )
 
-      const trialAndErrorCategoryPosts = posts.filter(
-        ({ node }) => node.frontmatter.category === 'trial_and_error'
+      const oopPosts = posts.filter(
+        ({ node }) => node.frontmatter.category === 'oop'
+      )
+
+      const referencePosts = posts.filter(
+        ({ node }) => node.frontmatter.category === 'reference'
       )
 
       const allCategoryPosts = nodejsPosts
@@ -72,7 +76,8 @@ export const Contents = ({ posts, countOfInitialPost, count, category }) => {
           securityPosts,
           etcPosts,
           databasePosts,
-          trialAndErrorCategoryPosts
+          oopPosts,
+          referencePosts
         )
         .flat()
 

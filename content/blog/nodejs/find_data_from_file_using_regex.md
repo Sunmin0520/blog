@@ -1,5 +1,5 @@
 ---
-title: '[node.js] 텍스트 파일에서 읽은 데이터에 정규식 적용 후 새로운 파일로 작성'
+title: '[Node.js] 텍스트 파일에서 읽은 데이터에 정규식 적용 후 새로운 파일로 작성'
 date: 2023-02-07 08:07:07
 category: 'nodejs'
 draft: false

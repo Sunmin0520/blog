@@ -1,7 +1,7 @@
 ---
 title: '[Node.js] [Node.js 교과서] 1. 노드 시작하기'
 date: 2021-03-23 23:41:07
-category: 'node.js'
+category: 'nodejs'
 draft: false
 ---
 <p>

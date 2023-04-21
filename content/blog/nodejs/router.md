@@ -112,7 +112,7 @@ const app = express();
 const port = 3000;
 const getRouter = require("./api"); //라우팅 관련 설정
 
-getRouter().getRouterthen((router) => app.use(router)); // 두번 째 방식과 같이 app.use(<가져온 routing 관련 설장>)
+getRouter().then((router) => app.use(router)); // 두번째 방식과 같이 app.use(<가져온 routing 관련 설정>)
 
 app.listen(port);
 ```

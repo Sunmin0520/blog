@@ -1,6 +1,6 @@
 ---
 title: '[서적] 전문가를 위한 C'
-date: 2023-06-26 21:08:07
+date: 2023-03-26 21:08:07
 category: 'books'
 draft: false
 ---

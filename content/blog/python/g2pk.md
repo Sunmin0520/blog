@@ -27,7 +27,7 @@ mecab과 관련된 요소들은 각각은 설치가 되었으나 동작시키면
 사용 환경은 **Mac OS Ventura 13.4**이다. 
  
 ## Python version 정리 
-1. Python 3.11.4를 https://www.python.org/downloads/에서 다운로드 후 설치했다.    
+1. Python 3.11.4를 https://www.python.org/downloads/ 에서 다운로드 후 설치했다.    
     - 이유: 그동안의 여러 어플리케이션에서 여러 버전의 파이썬을 사용했지만 반드시 특정 버전을 사용해야하는 경우는 없었다.  
     그래서 이번 기회에 버전을 명시적으로 전역적으로 3.11.4를 사용하고자 했다.  
 2. 기존에 alias를 `python=/usr/bin/python3`로 사용하고 있었는데 이것을 `python=python3`로 변경 했다.  
@@ -60,7 +60,7 @@ python-mecab-ko는 mecab-ko의 파이썬 바인딩을 위한 패키지이며, me
 
 ## mecab-ko 설치 
 mecab은 범용 형태소 분석기 엔진이다.    
-(프로젝트 전체의 마인드맵https://mind42.com/mindmap/b269c84a-3975-48ef-946e-8900f3414661?rel=url 도 있는데 멋있다!!)  
+(프로젝트 전체의 마인드맵 https://mind42.com/mindmap/b269c84a-3975-48ef-946e-8900f3414661?rel=url 도 있는데 멋있다!!)  
 설치는 파일 다운로드 후 → 압축 풀기 → INSTALL 문서에 제시된 순서대로 아래처럼 진행했다. 
 
 `$ wget https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.2.tar.gz`  
@@ -97,10 +97,10 @@ autoreconf는 configure스크립트와 Makefile을 생성 또는 업데이트하
   See the Autoconf documentation. 
   make: *** [configure] Error 1 
 ```
- 그래서 혹시 모를 가능성을 제거하고자 `$ make`에서 에러가 났을 때의 기존 파일을 삭제 후 다시 다운로드 받아 위의 순서대로 $ autoreconf 를 추가해서 진행했다. 
+ 그래서 혹시 모를 가능성을 제거하고자 `$ make`에서 에러가 났을 때의 기존 파일을 삭제 후 다시 다운로드 받아 위의 순서대로 `$ autoreconf` 를 추가해서 진행했다. 
  
 ## mecab-python-0.996 설치 
-mecab-python-0.996은 MeCab에서 제공하는 python 바인딩 소스가 Python 3.x에서 문제를 일으키는 것을 개선한 것이라고 한다.    
+mecab-python-0.996은 MeCab에서 제공하는 파이썬 바인딩 소스가 Python 3.x에서 문제를 일으키는 것을 개선한 것이라고 한다.    
 아래의 순서대로 진행했다. 
 
 `$ git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git`  

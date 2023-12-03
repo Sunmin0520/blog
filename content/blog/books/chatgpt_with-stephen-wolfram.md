@@ -4,7 +4,7 @@ date: 2023-11-26 15:43:07
 category: 'books'
 draft: false
 ---  
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/79896443/285640264-4f113ae6-bed5-4bb4-bcf9-3550c557ca44.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231126T092418Z&X-Amz-Expires=300&X-Amz-Signature=47af5e3d70efc5777b28aed66b86eb776c54a1af2361f663308ddc38adc55f44&X-Amz-SignedHeaders=host&actor_id=79896443&key_id=0&repo_id=722554510" width="350">  
+<img src="https://github.com/Sunmin0520/blog/assets/60782131/52e8df67-8af7-45cf-b59e-dc2d6a0adbcc" width="350">  
 
 # 이 책을 짧게 소개한다면  
 이 책은 챗GPT와 울프럼 알파의 결합을 통해 어떻게 인공지능이 인간의 사고와 언어를 모방하는지, 그리고 계산 지식을 활용하여 더욱 강력한 성능을 발휘하는지를 알려준다. 

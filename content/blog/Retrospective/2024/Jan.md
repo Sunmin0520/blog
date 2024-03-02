@@ -1,5 +1,5 @@
 ---
-title: '[회고] 2024년 1월년'
+title: '[회고] 2024년 1월'
 date: 2024-02-04 16:11:07
 category: 'retrospective'
 draft: false
